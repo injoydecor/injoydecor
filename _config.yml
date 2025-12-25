@@ -3,7 +3,10 @@ description: "Professional Decorative Wall Material Manufacturer"
 url: "https://你的用户名.github.io"
 baseurl: "/minimal-mistakes"
 
-theme: minimal-mistakes-jekyll
+# 核心配置：指定远程主题仓库
+remote_theme: mmistakes/minimal-mistakes
+# 可选：指定主题版本（避免后续主题更新导致兼容问题）
+# remote_theme: mmistakes/minimal-mistakes@4.24.0
 remote_theme: "mmistakes/minimal-mistakes"
 
 plugins:
